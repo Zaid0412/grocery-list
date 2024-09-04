@@ -8,7 +8,30 @@
 </head>
 <body>
     
+    <div id="container">
+        <div class="header">
+            <h1>Grocery Bud</h1>
+            <form>
+                <input type="text" class="item-input" placeholder="e.g. eggs">
+                <button type="submit" class="addItem-btn">Add</button>
+            </form>
+        </div>
+        <div class="display-list">
+            <div class="checkbox-wrapper-15 list-item">
+                <input class="inp-cbx" id="cbx-15" type="checkbox" style="display: none;"/>
+                <label class="cbx" for="cbx-15">
+                  <span>
+                    <svg width="12px" height="9px" viewbox="0 0 12 9">
+                      <polyline points="1 5 4 8 11 1"></polyline>
+                    </svg>
+                  </span>
+                  <span>To-do</span>
+                </label>
+              </div>
+              <button class="clearAll-btn">Clear Items</button>
+        </div>
+    </div>
 
-    <script src="./script.js"></script>
+    <script type="module" src="./script.js"></script>
 </body>
 </html>
